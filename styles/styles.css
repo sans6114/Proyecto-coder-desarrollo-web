@@ -82,7 +82,10 @@
 
 
 /*estilos footer*/
-
+.pie-pagina a{
+    text-decoration: none;
+    color: black;
+}
 .pie-pagina{
     width: 100%;
 }
@@ -131,7 +134,7 @@
 }
 
 .pie-pagina .grupo-1 .red-social a:hover{
-    color: rgb(89, 169, 66);;
+    color: rgb(89, 169, 66);
 }
 
 .pie-pagina .grupo-2{
@@ -142,6 +145,14 @@
 
 .pie-pagina .grupo-2 small{
     font-size: 15px;
+}
+#navegacion-footer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+}
+#navegacion-footer:hover{
+    color: rgb(89, 169, 66);
 }
 @media screen and (max-width:800px){
     .pie-pagina .grupo-1{
