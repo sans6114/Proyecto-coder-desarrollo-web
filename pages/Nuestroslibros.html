@@ -10,34 +10,36 @@
 </head>
 <body>
     <header class="navbar navbar-expand-lg bg-light">
-        <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="../images/marca_ediciones_vs-01.png" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <nav class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./Quienessomos.html">Quienes somos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./Nuestroslibros.html">libros</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link"  href="./Tiendavirtual.html" >Tienda Online</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
-            </li>
-            </ul>
-        </nav>
+        <div class="container d-flex">
+            <a class="navbar-brand w-50" href="#">
+                <img src="../images/marca_ediciones_vs-01.png" class="w-50 img-fluid" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="span" class="navbar-toggler-icon text-center mt-2 me-3 fw-bold">Menú</span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link texto" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link texto" href="../pages/Quienessomos.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link texto" href="../pages/Nuestroslibros.html">libros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link texto" href="../pages/Tiendavirtual.html">Tienda Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link texto" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
+
 <main>
     <section>
         <div>
@@ -77,26 +79,38 @@
         <a href="../pages/Tiendavirtual.html">Tienda online</a>
     </section>
 </main>
-<footer>
-    <div>
-        <h3>Información</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vel reiciendis, dolore atque mollitia aut earum perferendis vitae in molestias nemo consectetur animi cupiditate quidem praesentium molestiae perspiciatis ea necessitatibus.</p>
+<footer class="pie-pagina bg-light">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="../images/marca_ediciones_vs-01.png" alt="logo">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>Navegación</h2>
+            <div id="navegacion-footer">
+                <a class="fw-bold" href="../index.html">Home</a>
+                <a class="fw-bold" href="../pages/quienessomos.html">Quienes Somos</a>
+                <a class="fw-bold" href="../pages/Nuestroslibros.html">Libros</a>
+                <a class="fw-bold" href="../pages/tiendavirtual.html">Tienda online</a>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Contacto</h2>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
     </div>
-    <div>
-        <h3>Navegación</h3>
-        <ul>
-            <li><a href="../pages/index.html">Home</a></li>
-            <li><a href="../pages/Quienessomos.html">Quienes somos</a></li>
-            <li><a href="../pages/Nuestroslibros.html">Libros</a></li>
-            <li><a href="../pages/Tiendavirtual.html">Tienda online</a></li>
-        </ul>
-    </div>
-    <div>
-        <h3>Contacto</h3>
-        <h4>Vida Sobrenatural - La Plata</h4>
-        <h4>Example@gmail.com</h4>
+    <div class="grupo-2">
+        <small>&copy; 2022 <b>Ediciones VS</b> - Todos los Derechos Reservados</small>
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/75d8bb07f7.js" crossorigin="anonymous"></script>
 </body>
 </html>
