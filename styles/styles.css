@@ -45,7 +45,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    margin-bottom: 25px;
 }
 
 .quienes-somos{
@@ -79,6 +78,18 @@
     width: 35vh;
     
 }
+
+
+/*estilos sección nuestros libros home*/
+
+    @media screen and (max-width:800px){
+        .nuestros-libros img{
+            display: none;
+        }
+    }
+        
+        
+
 
 
 /*estilos footer*/
@@ -162,5 +173,5 @@
         padding: 35px 0px;
     }
 }
-    
+
 
