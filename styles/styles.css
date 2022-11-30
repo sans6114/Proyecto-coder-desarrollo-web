@@ -3,18 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-.boton{
-    font-size: 1em;
-    font-weight: bold;
-    padding: 5px 15px;
-    border-radius: 3px;
-    border: 2px solid rgb(0,0,0.5);
-    color: white;
-    background-color:  rgb(105, 199, 77);
-    text-decoration: none;
-}
 
     /*estilos elementos*/
+
+    .boton{
+        font-size: 1em;
+        font-weight: bold;
+        padding: 5px 15px;
+        border-radius: 3px;
+        border: 2px solid rgb(0,0,0.5);
+        color: white;
+        background-color:  rgb(105, 199, 77);
+        text-decoration: none;
+    }
 
     .boton:hover{
     background-color: rgb(89, 169, 66);}
@@ -76,19 +77,14 @@
 
 .tamaños-libros{
     width: 35vh;
-    
+}
+/*estilos seccion tienda virtual home*/
+.p-section-tienda{
+    vertical-align: inherit
 }
 
 
-/*estilos sección nuestros libros home*/
 
-    @media screen and (max-width:800px){
-        .nuestros-libros img{
-            display: none;
-        }
-    }
-        
-        
 
 
 
