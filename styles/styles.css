@@ -60,7 +60,6 @@
 }
 
 .welcome{
-    margin-top: 20px;
     height: 15vh;
     display: flex;
     justify-content: center;
@@ -83,7 +82,13 @@
     vertical-align: inherit
 }
 
-
+/*estilos para section-libros-home*/
+.section-libros{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
 
 
 
