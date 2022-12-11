@@ -20,67 +20,6 @@
   background-color: rgb(89, 169, 66);
 }
 
-#home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  height: 85vh;
-  color: white;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-image: url(../images/ALE_0881.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.quienes-somos {
-  text-align: center;
-  padding: 200px 12px;
-}
-
-.quienes-somos h2 {
-  padding-bottom: 30px;
-}
-
-.quienes-somos p {
-  padding-bottom: 30px;
-}
-
-.welcome {
-  height: 15vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../images/background.jpg);
-  background-size: cover;
-}
-
-.welcome h1 {
-  font-size: 2.25em;
-}
-
-#span {
-  font-size: 1em;
-}
-
-.tamaños-libros {
-  width: 35vh;
-}
-
-/*estilos seccion tienda virtual home*/
-.p-section-tienda {
-  vertical-align: inherit;
-}
-
-/*estilos para section-libros-home*/
-.section-libros {
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
-}
-
 .pie-pagina a {
   text-decoration: none;
   color: black;
@@ -165,6 +104,98 @@
     gap: 30px;
     padding: 35px 0px;
   }
+}
+.texto {
+  color: black;
+}
+
+.texto:hover {
+  background-color: rgb(89, 169, 66);
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 85vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: url(../images/ALE_0881.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.quienes-somos {
+  text-align: center;
+  padding: 200px 12px;
+}
+
+.quienes-somos h2 {
+  padding-bottom: 30px;
+}
+
+.quienes-somos p {
+  padding-bottom: 30px;
+}
+
+.welcome {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+}
+
+.welcome h1 {
+  font-size: 2.25em;
+}
+
+#span {
+  font-size: 1em;
+}
+
+.tamaños-libros {
+  width: 35vh;
+}
+
+/*estilos seccion tienda virtual home*/
+.p-section-tienda {
+  vertical-align: inherit;
+}
+
+/*estilos para section-libros-home*/
+.section-libros {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+#quienes-somos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 30vh;
+  color: black;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.parrafo-quienes-somos {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 22px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
