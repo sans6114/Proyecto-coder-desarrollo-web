@@ -13,15 +13,15 @@
 
 <body>
     <header class="navbar navbar-expand-lg bg-light">
-        <div class="container d-flex">
-            <a class="navbar-brand w-50" href="#">
-                <img src="../images/marca_ediciones_vs-01.png" class="w-50 img-fluid" alt="logo">
+        <div class="container d-flex" id="navbar">
+            <a class="navbar-brand" href="#">
+                <img src="../images/marca_ediciones_vs-01.png" class="img-fluid" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span id="span" class="navbar-toggler-icon text-center mt-2 me-3 fw-bold">Menú</span>
             </button>
-            <nav class="collapse navbar-collapse" id="navbarNav">
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav justify-content-end">
                     <li class="nav-item">
                         <a class="nav-link texto" aria-current="page" href="../index.html">Home</a>
@@ -42,14 +42,12 @@
             </nav>
         </div>
     </header>
-
-
-
     <main>
         <section>
             <div class="welcome mb-5">
                 <h2>L I B R O S</h2>
             </div>
+
             <div id="carouselimagenes" class="carousel slide container d-flex justify-content-center align-items-center"
                 data-ride="carousel">
                 <div class="carousel-inner">
@@ -75,72 +73,66 @@
                 </button>
             </div>
             <section class="container">
-                <div class="container">
-                    <div class="row">
-                        <div class="card mt-5 container col-sm-12 col-md-4 tamaños-libros">
-                            <img src="../images/tapa_quetienesentumano_marianamaillet.jpg" class="card-img-top"
-                                alt="foto libro Que tienes en tu mano">
-                            <div class="card-body">
-                                <h5 class="card-title">¿Que tienes en tu Mano? (Mariana Maillet)</h5>
-                                <p class="card-text">1300$</p>
-                                <a href="#" class="btn boton">Ver producto</a>
-                            </div>
-                        </div>
 
-
-                        <div class="card container mt-5 col-md-4 tamaños-libros">
-                            <img src="../images/antidotoscontralareligion_tapa.jpg" class="card-img-top"
-                                alt="foto libro Antidotos contra la religion">
-                            <div class="card-body">
-                                <h5 class="card-title">Antidotos contra la religion (Juan Pablo Sosa)</h5>
-                                <p class="card-text">1300$</p>
-                                <a href="#" class="btn boton">Ver producto</a>
-                            </div>
-                        </div>
-
-                        <div class="card container mt-5 col-md-4 tamaños-libros">
-                            <img src="../images/mujermaravilla_tapa.jpg" class="card-img-top"
-                                alt="foto libro Mujer maravilla">
-                            <div class="card-body">
-                                <h5 class="card-title">Mujer Maravilla (Natalia Spetale)</h5>
-                                <p class="card-text">1300$</p>
-                                <a href="#" class="btn boton">Ver producto</a>
-                            </div>
-                        </div>
+                <hr class="featurette-divider mt-5">
+                <div class="row mt-5">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">¿Que tienes en tu Mano? (Mariana Maillet)</h2>
+                        <p class="lead">informacion descriptiva del libro</p>
                     </div>
-
-                    <div class="row">
-                        <div class="card container mt-5 tamaños-libros">
-                            <img src="../images/HijosDeLaPromesa-EzequielRossini_160p-14x21-1-555x832-1.jpg"
-                                class="card-img-top" alt="foto tapa_quetienesentumano_marianamaillet">
-                            <div class="card-body">
-                                <h5 class="card-title">Hijos de la Promesa (Ezequiel Rossini)</h5>
-                                <p class="card-text">1300$</p>
-                                <a href="#" class="btn boton">Ver producto</a>
-                            </div>
-                        </div>
-
-                        <div class="card container mt-5 tamaños-libros">
-                            <img src="../images/tapa_lavidadegrace_alta.jpg" class="card-img-top"
-                                alt="foto tapa La vida de Grace">
-                            <div class="card-body">
-                                <h5 class="card-title">La vida de Grace (Natalia Spetale)</h5>
-                                <p class="card-text">1300$</p>
-                                <a href="#" class="btn boton">Ver producto</a>
-                            </div>
-                        </div>
-
-                        <div class="card container mt-5 tamaños-libros">
-                            <img src="../images/tapa_diseñadosparaunavidasaludable.jpg" class="card-img-top"
-                                alt="foto libro Diseñados para una vida saludable">
-                            <div class="card-body">
-                                <h5 class="card-title">Diseñados para una vida Saludable (María José Amiunes)</h5>
-                                <p class="card-text">1300$</p>
-                                <a href="#" class="btn boton">Ver producto</a>
-                            </div>
-                        </div>
+                    <div class="col-md-5">
+                        <img class="img-fluid mx-auto w-75" src="../images/tapa_quetienesentumano_marianamaillet.jpg" alt="tapa libro">
                     </div>
                 </div>
+                <hr class="featurette-divider mt-5">
+                <div class="row mt-5">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading">Antidotos contra la religion (Juan Pablo Sosa)</h2>
+                        <p class="lead">informacion descriptiva del libro</p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img class="img-fluid mx-auto w-75" src="../images/antidotoscontralareligion_tapa.jpg" alt="tapa libro">
+                    </div>
+                </div>
+                <hr class="featurette-divider mt-5">
+                <div class="row mt-5">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Mujer Maravilla (Natalia Spetale)</h2>
+                        <p class="lead">informacion descriptiva del libro</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="img-fluid mx-auto w-75" src="../images/mujermaravilla_tapa.jpg" alt="tapa libro">
+                    </div>
+                    <hr class="featurette-divider mt-5">
+                    <div class="row mt-5">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading">Hijos de la Promesa (Ezequiel Rossini)</h2>
+                            <p class="lead">informacion descriptiva del libro</p>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <img class="img-fluid mx-auto w-75" src="../images/HijosDeLaPromesa-EzequielRossini_160p-14x21-1-555x832-1.jpg" alt="tapa libro">
+                        </div>
+                        <hr class="featurette-divider mt-5">
+                        <div class="row mt-5">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading">La vida de Grace (Natalia Spetale)</h2>
+                                <p class="lead">informacion descriptiva del libro</p>
+                            </div>
+                            <div class="col-md-5">
+                                <img class="img-fluid mx-auto w-75" src="../images/tapa_lavidadegrace_alta.jpg" alt="tapa libro">
+                            </div>
+                            <hr class="featurette-divider mt-5">
+                            <div class="row mt-5">
+                                <div class="col-md-7">
+                                    <h2 class="featurette-heading">Diseñados para una vida Saludable (María José Amiunes)</h2>
+                                    <p class="lead">informacion descriptiva del libro</p>
+                                </div>
+                                <div class="col-md-5">
+                                    <img class="img-fluid mx-auto w-75" src="../images/tapa_diseñadosparaunavidasaludable.jpg" alt="tapa libro">
+                                </div>
+
+
+
                 <div class="container" id="comentarios">
                     <div class="row">
                         <div class="col-md-12">
@@ -258,7 +250,7 @@
                                     data-bs-target="#carouselcomentarios" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
-                                </button>|
+                                </button>
                                 <button class="carousel-control-next" type="button"
                                     data-bs-target="#carouselcomentarios" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -268,13 +260,24 @@
                             </div>
                         </div>
                     </div>
-
-
-                    <h3>¿Te intereso alguno? ¡Conoce nuestra tienda online!</h3>
-                    <a href="../pages/Tiendavirtual.html">Tienda online</a>
-
-
                 </div>
+
+                <section class="container my-5">
+                    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                            <h2 class="display-4 fw-bold lh-1">
+                                ¿Te intereso alguno? ¡Visitá ya nuestra tienda online!
+                            </h2>
+                            <div class="gap-2 d-flex justify-content-md-start mb-4 mb-lg-3">
+                                <a class="boton" href="../pages/Tiendavirtual.html">Tienda online</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                            <img class="rounded-lg-3" src="../images/Anotación 2022-11-30 145521.png" alt="foto tienda"
+                                width="720" />
+                        </div>
+                    </div>
+                </section>
     </main>
     <footer class="pie-pagina bg-light">
         <div class="grupo-1">
