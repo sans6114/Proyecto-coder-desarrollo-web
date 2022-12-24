@@ -139,8 +139,17 @@
 }
 
 .quienes-somos {
-  text-align: center;
   padding: 200px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: black;
+  background-image: url(/images/parasantiheader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .quienes-somos h2 {
@@ -263,6 +272,10 @@
 imagenes-nuestros-libros img {
   width: 350px;
   height: 350px;
+}
+
+#carouselimagenes {
+  height: 20%;
 }
 
 /*# sourceMappingURL=styles.css.map */
