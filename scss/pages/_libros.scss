@@ -1,5 +1,20 @@
+
+
 #comentarios{
-    margin-top: 15%;
+    margin-top: 5%;
+    margin-bottom: 150px;
+}
+#subrayado{
+    color: rgb(89, 169, 66);
+    height: 5px;
+}
+.autores{
+    margin-top: 100px;
+}
+.imagenes-autores{
+    width: 140px;
+    height: 140px;
+    vertical-align: middle;
 }
 
 .img-text{
@@ -8,7 +23,7 @@
     display: block;
     text-align: center;
     padding: 40% 5%;
-    background: #808080;
+    background: #56abb8;
     color: #fff;
     border-radius: 15px;
 
@@ -66,6 +81,11 @@ imagenes-nuestros-libros img{
 #carouselimagenes{
     height: 20%
 
+}
+
+#circle{
+    width: 140px;
+    height: 140px;
 }
 
 
