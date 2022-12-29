@@ -32,7 +32,7 @@ h5 {
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: 300;
 }
 
@@ -227,6 +227,8 @@ a {
 /*estilos seccion tienda virtual home*/
 .p-section-tienda {
   vertical-align: inherit;
+  font-size: 1.25em;
+  font-weight: 300;
 }
 
 /*estilos para section-libros-home*/
@@ -264,7 +266,11 @@ a {
   margin-bottom: 150px;
 }
 
-.text-chico #subrayado {
+.text-bold {
+  font-weight: 500;
+}
+
+#subrayado {
   color: rgb(89, 169, 66);
   height: 5px;
 }
