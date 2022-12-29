@@ -17,6 +17,7 @@
     background-position: center center;
 }
 
+
 .quienes-somos{
     height: 85vh;
     padding: 200px 12px;
@@ -32,10 +33,15 @@
     background-position: center center;
 }
 .quienes-somos h2 {
-    padding-bottom: 30px;
+    font-size: 2em;
+    padding-bottom: 15px;
+    font-weight: 500;
 }
-.quienes-somos p {
-    padding-bottom: 30px;
+.quienes-somos h3 {
+    
+    font-size: 1.50em;
+    padding-bottom: 20px;
+    font-weight: 400;
 }
 
 .welcome{

@@ -12,11 +12,14 @@ h1 {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.3em;
+  font-size: 2.5em;
+  font-weight: 500;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.7em;
 }
 
 h4 {
@@ -29,7 +32,8 @@ h5 {
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 0.8em;
+  font-size: 1.25em;
+  font-weight: 300;
 }
 
 a {
@@ -188,11 +192,15 @@ a {
 }
 
 .quienes-somos h2 {
-  padding-bottom: 30px;
+  font-size: 2em;
+  padding-bottom: 15px;
+  font-weight: 500;
 }
 
-.quienes-somos p {
-  padding-bottom: 30px;
+.quienes-somos h3 {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+  font-weight: 400;
 }
 
 .welcome {
@@ -256,7 +264,7 @@ a {
   margin-bottom: 150px;
 }
 
-#subrayado {
+.text-chico #subrayado {
   color: rgb(89, 169, 66);
   height: 5px;
 }
