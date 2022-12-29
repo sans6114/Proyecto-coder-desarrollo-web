@@ -7,12 +7,10 @@
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5em;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.3em;
 }
 
 h3 {
@@ -29,7 +27,6 @@ h5 {
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 0.8em;
 }
 
 a {
@@ -339,4 +336,4 @@ imagenes-nuestros-libros img {
   margin-bottom: 150px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.csss.map */
